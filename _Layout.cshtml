@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+
+<body>
+
+
+    <div id="wx">
+        文轩真帅
+    </div>
+    <div id="lc">
+        老程真帅
+    </div>
+    <div id="lz">
+        老赵真帅
+    </div>
+    <div id="wf">
+        王枫真帅
+    </div>
+
+    @RenderBody()
+
+</body>
+
+<head>
+    <script>
+        var wx = document.getElementById('wx'),
+            childwx = wx.children[0],
+            lc = document.getElementById('lc'),
+            childlc = lc.children[0],
+            lz = document.getElementById('lz'),
+            childlz = lz.children[0],
+            wf = document.getElementById('wf'),
+            childwf = wf.children[0];
+        wx.onmousemove = function () {
+            console.log(`四次`)
+
+        }
+        lc.onmousemove = function () {
+            console.log(`五次`)
+
+        }
+        wf.onmousemove = function () {
+            console.log(`三次`)
+
+        }
+        lz.onmousemove = function () {
+            console.log(`二次`)
+
+        }
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
